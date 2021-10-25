@@ -123,14 +123,16 @@ p {
   margin: 20px;
 }
 
-
-@media (max-width: 1400px){
+@media (max-width: 1024px){
   .phone-pic{
     position: static;
     width: 60%;
     transform: rotate(0);
     z-index: 1;
-    padding-left: 10%;
 
+  }
+
+  #title{
+    text-align: center;
   }
 }
